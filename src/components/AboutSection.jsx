@@ -34,7 +34,7 @@ function AboutSection() {
       id="about"
       className="min-h-screen flex bg-gradient-to-tr from-[#15597a] via-[#11405a] to-[#0e3a4a] text-gray-300 items-center overflow-hidden"
     >
-      <div className="container mx-auto px-6 py-24 w-full">
+      <div className="container mx-auto px-6 py-24 w-full mt-12">
         <div className="flex flex-col md:flex-row gap-16 items-center">
           <div className="space-y-6 w-full md:w-1/2 break-words z-10">
             <p className="text-lg">
