@@ -36,7 +36,7 @@ function ExperienceSection() {
       id="experience"
       className="min-h-screen flex items-center bg-gradient-to-bl from-[#15597a] via-[#11405a] to-[#0e3a4a] flex items-center overflow-hidden"
     >
-      <div className="container mx-auto px-6 py-24">
+      <div className="container mx-auto px-6 py-24 w-full mt-6">
         <div className="flex justify-center mb-12">
           <div className="bg-gray-900/40 rounded-full shadow-lg p-4 flex items-center justify-center mt-3"
                style={{ width: 250, height: 250 }}>

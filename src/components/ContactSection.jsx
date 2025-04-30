@@ -37,7 +37,7 @@ function ContactSection() {
       id="contact"
       className="min-h-screen flex items-center bg-gradient-to-b from-[#15597a] via-[#11405a] to-[#0e3a4a] overflow-hidden"
     >
-      <div className="container mx-auto px-6 py-24 w-full">
+      <div className="container mx-auto px-6 py-24 w-full mt-6">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-full">
           <div className="flex-1 w-full max-w-xl">
             <form
@@ -86,7 +86,7 @@ function ContactSection() {
           <div className="flex-1 flex justify-center items-center w-full">
             <div
               className="bg-gray-900/40 rounded-full shadow-lg p-4 flex items-center justify-center"
-              style={{ width: 400, height: 400 }}
+              style={{ width: 350, height: 350 }}
             >
               <DotLottieReact
                 src="https://lottie.host/229c15aa-e2f2-4a45-9e85-9b27b5532d62/GKXkpF4hLy.lottie"
