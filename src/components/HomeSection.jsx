@@ -11,7 +11,6 @@ function HomeSection() {
       <div className="absolute left-8 top-8 w-40 h-40 bg-cyan-500/10 rounded-full z-0 animate-float-xy"></div>
       <div className="absolute right-16 top-[260px] w-[400px] h-[400px] bg-cyan-700/30 rounded-full z-0 animate-scale-pulse"></div>
 
-
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between relative z-10 mt-28">
         <div className="flex-1 text-center md:text-left">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
@@ -22,7 +21,8 @@ function HomeSection() {
             <span className="text-cyan-400">Junior Frontend</span> Developer
           </h1>
           <p className="text-gray-200 text-lg md:text-xl mb-8 max-w-xl">
-          Crafting interactive, beautiful web interfaces that turn imagination into reality.
+            Crafting interactive, beautiful web interfaces that turn imagination
+            into reality.
           </p>
           <div className="flex gap-6 justify-center md:justify-start mb-8">
             <a
@@ -32,6 +32,14 @@ function HomeSection() {
               className="border-2 border-cyan-500 hover:bg-cyan-500/10 px-8 py-3 rounded-full text-lg font-semibold transition-all"
             >
               Resume
+            </a>
+            <a
+              href="/ReferenceLetter.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-cyan-500 bg-cyan-500/100 px-8 py-3 rounded-full text-lg font-semibold transition-all hover:text-cyan-400 hover:bg-white/10"
+            >
+              Reference Letter
             </a>
           </div>
           <div className="flex gap-6 justify-center md:justify-start">
