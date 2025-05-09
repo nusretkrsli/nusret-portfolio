@@ -4,7 +4,7 @@ function Navbar({ sections, activeSection, scrollToSection }) {
   return (
     <nav className="fixed w-full bg-gray-800/80 backdrop-blur-sm z-50 pt-8">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-       <a href="home"><h1 className="text-2xl font-bold text-cyan-400">Nusret</h1></a> 
+       <h1 className="text-2xl font-bold text-cyan-400" onClick={() => scrollToSection('home')}>Nusret</h1>
         
         <div className="flex items-center gap-4">
           <div className="md:hidden">
