@@ -33,18 +33,18 @@ function HamburgerMenu({ scrollToSection, activeSection }) {
         aria-label="Menu"
       >
         <span
-          className={`block w-8 h-1 bg-white rounded transition-all duration-300 ${
-            open ? "translate-y-2 rotate-45" : "-translate-y-2"
+          className={`block w-7 h-0.5 bg-white rounded transition-all duration-300 ${
+            open ? "translate-y-1.5 rotate-45" : "-translate-y-2"
           }`}
         ></span>
         <span
-          className={`block w-8 h-1 bg-white rounded transition-all duration-300 my-1 ${
+          className={`block w-7 h-0.5 bg-white rounded transition-all duration-300 my-1 ${
             open ? "opacity-0" : "opacity-100"
           }`}
         ></span>
         <span
-          className={`block w-8 h-1 bg-white rounded transition-all duration-300 ${
-            open ? "-translate-y-2 -rotate-45" : "translate-y-2"
+          className={`block w-7 h-0.5 bg-white rounded transition-all duration-300 ${
+            open ? "-translate-y-1.5 -rotate-45" : "translate-y-2"
           }`}
         ></span>
       </button>
